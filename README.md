@@ -16,14 +16,8 @@ It processes new images, detects and identifies faces against a set of known fac
 
 ## Requirements
 
-- Python 3.8 or higher
-- Google Drive account with folder structure set up
-- Google Cloud OAuth credentials file (`client_secrets.json`)
-
-### Install Dependencies
-
 ```bash
-pip install deepface pydrive pillow numpy tqdm
+pip install -r requirements.txt
 ```
 
 --------------------------------------------------------------------------------
