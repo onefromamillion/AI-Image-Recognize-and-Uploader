@@ -14,7 +14,7 @@ It processes new images, detects and identifies faces against a set of known fac
 
 ---
 
-## Requirements
+# Requirements
 
 ```bash
 pip install -r requirements.txt
