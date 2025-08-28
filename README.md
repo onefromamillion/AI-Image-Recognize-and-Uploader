@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 --------------------------------------------------------------------------------
 
-Folder Structure
+##Folder Structure
 
 Set up your project directory as follows:
 
@@ -41,7 +41,7 @@ driveuploader/
 
 --------------------------------------------------------------------------------
 
-Preparing Known Faces
+##Preparing Known Faces
 
 Add 10 or more clear images per person in the known_faces/ folder.
 
@@ -53,7 +53,7 @@ A cache of embeddings will be created for faster future runs.
 
 --------------------------------------------------------------------------------
 
-Configuring Google Drive:
+##Configuring Google Drive:
 
 In the script, update the mapping between people and their Google Drive folder IDs:
 
@@ -69,7 +69,7 @@ https://drive.google.com/drive/folders/<FOLDER_ID>
 
 --------------------------------------------------------------------------------
 
-Running the Script
+##Running the Script
 
 From the script/ directory, run:
 
@@ -77,7 +77,7 @@ python uploader.py
 
 --------------------------------------------------------------------------------
 
-The script will:
+##The script will:
 
 Authenticate with Google Drive (browser window opens on first run).
 
@@ -89,14 +89,14 @@ Upload matched images to the corresponding Google Drive folders.
 
 --------------------------------------------------------------------------------
 
-Logs
+##Logs
 
 A log file named drive_uploader.log will be generated in the working directory.
 It contains detailed information about authentication, embedding, detection, matches, and uploads.
 
 --------------------------------------------------------------------------------
 
-Example Workflow
+##Example Workflow
 
 Add john_robinson.jpg to known_faces/
 
@@ -108,7 +108,7 @@ If John is detected in the photo, party_photo.png is uploaded to his mapped Goog
 
 --------------------------------------------------------------------------------
 
-Notes
+##Notes
 
 Images with no confident matches are not uploaded.
 
